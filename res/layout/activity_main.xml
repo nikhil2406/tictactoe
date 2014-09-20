@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	android:background="@drawable/new_background">
+
+    <include
+        android:layout_height="289dp"
+        android:layout_width="fill_parent"
+        layout="@layout/relative_layout" />
+
+    <include
+        layout="@layout/start_page" />
+        
+</LinearLayout>
